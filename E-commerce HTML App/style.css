@@ -1,0 +1,73 @@
+*{
+    background-color: #faffaf;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.Header{
+    height:15%;
+    display: flex;
+    justify-content: space-between; 
+}
+.Navigation{
+    width: 1080px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.NavItem{
+    margin: 5px;
+    border: 5px;
+    text-decoration: none;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    line-height: 1.5;
+}
+.NavItem:hover{
+    background-color: #0400ff;
+    color: rgb(251, 251, 251);
+}
+.Main{
+    height:70%;
+    text-align: center;
+}
+.Offers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.O,
+.C{
+    text-align: center;
+}
+.Categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.O:hover,
+.C:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+.SignIn{
+    display: block;
+    text-align: center;
+}
+.SignUp{
+    display: block;
+    text-align: center;
+}
+.Footer{
+    height:15%;
+}
+.ARR{
+    text-align: center;
+}
+.Extra{
+    display: flex;
+    justify-content: space-evenly;
+}

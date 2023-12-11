@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Change Password
+        </title>
+    </head>
+    <body>
+        <form action="#" name="new">
+            <input type="password" name="pwd" id="pwd" placeholder="Enter new password"><br>
+            <input type="password" name="rpwd" id="rpwd" placeholder="Re-enter new password"><br>
+            <button onClick="reset()">Submit</button>
+        </form>
+        <p>Rules of framing a new password:</p>
+        <p>1. Password must include an upper case letter.</p>
+        <p>2. Password must include a lower case letter.</p>
+        <p>3. Password must include a special character.</p>
+        <p>4. Password must include a number.</p>  
+        <p>5. Paasword must be greater than 16 characters.</p>      
+        <script>
+            function reset(){
+                const npwd=document.forms["new"]["pwd"];
+                const npw=npwd.value;
+                const rnpwd=document.forms["new"]["rpwd"];
+                const rnpw=rnpwd.value;
+                if(npw==""||rnpw=="")
+                    alert("A field is empty.\nPlease check and enter.");
+                else{
+                    if(npw.eqauals(rnpw)){
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
